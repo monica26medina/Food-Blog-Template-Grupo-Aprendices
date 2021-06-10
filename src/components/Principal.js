@@ -80,7 +80,7 @@ export default function Blog() {
                 })}
             </div>
             <div class="recipes">
-                <text class="titulo">Latest Recipes </text>
+                <text class="titulo">Recetas comerciales</text>
                 <div class="lineaRoja"></div>
                 <div class="lineaNormal"></div>
                 <div class="imagenes">
