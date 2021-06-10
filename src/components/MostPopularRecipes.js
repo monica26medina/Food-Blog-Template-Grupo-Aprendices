@@ -1,7 +1,7 @@
 import React from 'react'
-import "./styles/Most.css"
+import "./styles/MostPopularRecipes.css"
 
-export default function Most(props) {
+export default function MostPopularRecipes(props) {
     return (
         <div class={props.data.classImag}>
             <img src={props.data.imagen} alt="" class={props.data.classImgReceta}/>

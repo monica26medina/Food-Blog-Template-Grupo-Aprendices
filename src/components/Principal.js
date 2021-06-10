@@ -1,5 +1,5 @@
 import React from 'react'
-import Most from "./Most";
+import MostPopularRecipes from "./MostPopularRecipes";
 import LastRecipes from "./LastRecipes"
 import Categor from "./Categor"
 import Subscribes from "./Subscribes"
@@ -131,7 +131,7 @@ export default function Principal() {
                 <div class="lineaNormal"></div>
                 <div class="imagenes">
                     {data.map((most)=>{
-                        return <Most data={most}/>
+                        return <MostPopularRecipes data={most}/>
                     })}
                 </div>
                 <text class="texto t1">1</text>
