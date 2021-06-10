@@ -21,20 +21,20 @@ export default function Blog() {
         <div class="principal">
             <div class="fotter">
                 <div class="about">
-                    <text class="tituloFotter">About</text>
-                    <text class="textoFotter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat posuere mauris ac scelerisque. Gravida id dui arcu nibh </text>
+                    <text class="tituloFotter">Acerca de</text>
+                    <text class="textoFotter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat posuere mauris ac scelerisque </text>
                 </div>
                 <div class="archives">
-                    <text class="tituloFotter">Archives</text>
-                    <text class="text1 textoFotter">Jun 2019</text>
-                    <text class="text2 textoFotter">Jun 2018</text>
-                    <text class="text3 textoFotter">Jun 2017-14</text>
+                    <text class="tituloFotter">ARCHIVOS</text>
+                    <text class="text1 textoFotter">Jul 2019</text>
+                    <text class="text2 textoFotter">Jul 2018</text>
+                    <text class="text3 textoFotter">Jul 2017-14</text>
                     <circulo class="cir1 circuloFotter"></circulo>
                     <circulo class="cir2 circuloFotter"></circulo>
                     <circulo class="cir3 circuloFotter"></circulo>
                 </div>
                 <div class="recipe">
-                    <text class="tituloFotter">Recipes</text>
+                    <text class="tituloFotter">RECETAS</text>
                     <text class="text1 textoFotter">Browse Recipes</text>
                     <text class="text2 textoFotter">Recipe Page</text>
                     <text class="text3 textoFotter">Submit Recipe</text>
@@ -44,12 +44,12 @@ export default function Blog() {
                 </div>
                 <div class="newsletter">
                     <div class="suscripcion">
-                        <text class="email">Your email address</text>
+                        <text class="email">Tu email</text>
                         <div>
                             <text class="subs">Subscribe</text>
                         </div>
                     </div>
-                    <text class="tituloFotter">Newsletter</text>
+                    <text class="tituloFotter">Boletin informatico</text>
                     <text class="textoFotter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat posuere mauris </text>
                 </div>
                 <div class="copyright">
@@ -65,12 +65,12 @@ export default function Blog() {
                 <img src="https://i78.servimg.com/u/f78/20/31/61/87/image_26.jpg" alt="" class="imagen5 imagen"/>
                 <div class="suscribIns">
                     <img src="https://i78.servimg.com/u/f78/20/31/61/87/instag10.png" alt="" class="logoIns"/>
-                    <text class="foll">Follow me</text>
+                    <text class="foll">Sigueme en</text>
                     <text class="instagram">Instagram</text>
                 </div>
             </div>
             <div class="tranding">
-                <text class="tituloTranding">Tranding Recipes</text>
+                <text class="tituloTranding">Recetas comerciales</text>
                 <div class="lineaNormal"></div>
                 <div class="lineaRoja"></div>
                 {data4.map((trand)=>{
@@ -78,7 +78,7 @@ export default function Blog() {
                 })}
             </div>
             <div class="recipes">
-                <text class="titulo">Latest Recipes </text>
+                <text class="titulo">Latest Recipes</text>
                 <div class="lineaRoja"></div>
                 <div class="lineaNormal"></div>
                 <div class="imagenes">
