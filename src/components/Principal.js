@@ -1,6 +1,6 @@
 import React from 'react'
 import MostPopularRecipes from "./MostPopularRecipes";
-import LastRecipes from "./LastRecipes"
+import LatestRecipes from "./LatestRecipes"
 import Categor from "./Categor"
 import Subscribes from "./Subscribes"
 import Tranding from "./Tranding"
@@ -83,7 +83,7 @@ export default function Principal() {
                 <div class="lineaNormal"></div>
                 <div class="imagenes">
                     {data1.map((last)=>{
-                        return <LastRecipes data1={last}/>
+                        return <LatestRecipes data1={last}/>
                     })}
                 </div>
                 <text class="texto t1">1</text>
