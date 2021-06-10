@@ -1,5 +1,5 @@
 import React from 'react'
-import Blog from "./components/Blog";
+import Principal from "./components/Principal"
 import "./global.css"
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
   //  const card = data[0];
     return (
         <>
-            <Blog/>
+            <Principal/>
         </>
     )
 }
